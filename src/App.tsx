@@ -1,8 +1,10 @@
 import './styles/main.css';
 
-import logoImg from './assets/logo-nlw-esports.svg';
 import { MagnifyingGlassPlus } from 'phosphor-react';
+
+import logoImg from './assets/logo-nlw-esports.svg';
 import { CardLink } from './components/CardLink';
+import { GradientText } from './components/GradientText';
 
 export function App() {
   const gamers = [
@@ -34,11 +36,7 @@ export function App() {
       <img src={logoImg} alt="logo escrito 'eSport nlw'" />
 
       <h1 className="text-6xl text-white font-black mt-20">
-        Seu{' '}
-        <span className="text-transparent bg-nlw-gradient bg-clip-text">
-          duo
-        </span>{' '}
-        está aqui.
+        Seu <GradientText>duo</GradientText> está aqui.
       </h1>
 
       <div className="grid grid-cols-6 gap-6 mt-16 w-full">
