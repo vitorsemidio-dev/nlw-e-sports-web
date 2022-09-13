@@ -36,7 +36,7 @@ export function App() {
         <a href="#" className="relative rounded-lg overflow-hidden">
           <img src="/public/image 3.png" alt="game 03" />
 
-          <div className="w-full pt-16 px-4 pb-4 bg-game-gradient absolute bottom-0 left-0 right-0">
+          <div className="w-full pt-16 px -4 pb-4 bg-game-gradient absolute bottom-0 left-0 right-0">
             <strong className="font-bold text-white block">CS Go</strong>
             <span className="text-zinc-300 block mt-1">4 anúncios</span>
           </div>
@@ -67,6 +67,22 @@ export function App() {
             <span className="text-zinc-300 block mt-1">4 anúncios</span>
           </div>
         </a>
+      </div>
+
+      <div className="bg-nlw-gradient self-stretch rounded-lg pt-1 overflow-hidden mt-8">
+        <div className="bg-[#2A2634] px-8 py-6 flex justify-between items-center">
+          <div>
+            <strong className="text-2xl font-black block text-white">
+              Não encontrou o seu duo?
+            </strong>
+            <span className="block  text-white">
+              Publique um anúncio para encontrar novos players!
+            </span>
+          </div>
+          <button className="py-3 px-4 bg-violet-500 text-white rounded hover:bg-violet-600">
+            Publicar anúncio
+          </button>
+        </div>
       </div>
     </div>
   );
